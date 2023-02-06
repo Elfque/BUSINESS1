@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.invest_input {
+  @apply border-2 border-gray-700 block w-[90%] h-8 my-2 p-2;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-white">
+    <div class="main grid grid-cols-1 w-4/5 my-6 mx-auto gap-4 sm:grid-cols-2">
+      <div class="addInventPart border-gray-700 border-4 p-2">
+        <div class="font-bold text-2xl mb-4">Add your Investment</div>
+        <div class="font-semibold">Invest Name</div>
+        <input type="text" class="invent_name invest_input" />
+        <div class="font-semibold">Invest Amount</div>
+        <input type="number" class="invent_amo invest_input" />
+        <button
+          class="add_invent bg-slate-500 text-white px-3 py-1 rounded-sm ml-auto"
+        >
+          Add Capital
+        </button>
+      </div>
+      <div class="invents">
+        <div class="font-bold text-2xl mb-2">Investments</div>
+        <div class="main_invest">
+          <div class="invent grid grid-cols-3 font-semibold">
+            <div class="invent_name truncate">invent name</div>
+            <div class="invent_amount">invent amount</div>
+            <div class="date"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
