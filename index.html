@@ -9,25 +9,48 @@
   </head>
   <body class="bg-white">
     <div class="main grid grid-cols-1 w-4/5 my-6 mx-auto gap-4 sm:grid-cols-2">
-      <div class="addInventPart border-gray-700 border-4 p-2">
+      <div class="addInventPart border-gray-700 border-4 p-4">
         <div class="font-bold text-2xl mb-4">Add your Investment</div>
         <div class="font-semibold">Invest Name</div>
         <input type="text" class="invent_name invest_input" />
         <div class="font-semibold">Invest Amount</div>
         <input type="number" class="invent_amo invest_input" />
-        <button
-          class="add_invent bg-slate-500 text-white px-3 py-1 rounded-sm ml-auto"
-        >
-          Add Capital
-        </button>
+        <div class="text-end">
+          <button class="add_invent">Add Capital</button>
+        </div>
       </div>
       <div class="invents">
-        <div class="font-bold text-2xl mb-2">Investments</div>
-        <div class="main_invest">
+        <div class="font-semibold text-xl mb-2">My Investments</div>
+        <div class="main_invest text-sm text-gray-700">
           <div class="invent grid grid-cols-3 font-semibold">
             <div class="invent_name truncate">invent name</div>
             <div class="invent_amount">invent amount</div>
             <div class="date"></div>
+          </div>
+        </div>
+        <div class="tot">
+          <span class="font-semibold">Total</span> :
+          <span class="total">0000</span>
+        </div>
+      </div>
+      <!-- PURCHASES -->
+      <div class="addInventPart border-gray-700 border-4 p-4">
+        <div class="font-bold text-2xl mb-4">Add your Purchase</div>
+        <div class="font-semibold">Item Purchased</div>
+        <input type="text" class="purchase_name purchase_input" />
+        <div class="font-semibold">Item Amount</div>
+        <input type="number" class="purchase_amo purchase_input" />
+        <div class="text-end">
+          <button class="add_purchase">Add Purchase</button>
+        </div>
+      </div>
+      <div class="invents">
+        <div class="font-semibold text-xl mb-2">My Purchases</div>
+        <div class="main_purchase text-sm text-gray-700">
+          <div class="invent grid grid-cols-3 font-semibold">
+            <div class="purchase_name truncate">purchase name</div>
+            <div class="purchase_amount">purchase amount</div>
+            <div class="date">01/01/01</div>
           </div>
         </div>
       </div>

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.invest_input {
-  @apply border-2 border-gray-700 block w-[90%] h-8 my-2 p-2;
+.invest_input,
+.purchase_input {
+  @apply border-2 border-gray-700 block w-[100%] h-8 my-2 p-2;
+}
+
+.add_invent,
+.add_purchase {
+  @apply bg-gray-700 text-white px-3 py-1 rounded-md ml-auto hover:border-gray-700 hover:bg-transparent border-2 hover:text-gray-700 transition duration-500 font-semibold;
 }
