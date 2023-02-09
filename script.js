@@ -82,7 +82,6 @@ const purchaseName = document.querySelector(".purchase_name");
 const purchaseAmount = document.querySelector(".purchase_amo");
 const purchaseAddBtn = document.querySelector(".add_purchase");
 const mainPurchase = document.querySelector(".main_purchase");
-// const totalSpan = document.querySelector(".total");
 
 inputDetails(myPurchases, mainPurchase);
 

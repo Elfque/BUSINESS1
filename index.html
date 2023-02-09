@@ -10,7 +10,7 @@
   <body class="bg-white">
     <div class="main grid grid-cols-1 w-4/5 my-6 mx-auto gap-4 sm:grid-cols-2">
       <div class="addInventPart border-gray-700 border-4 p-4">
-        <div class="font-bold text-2xl mb-4">Add your Investment</div>
+        <div class="font-semibold text-xl mb-4">Add your Investment</div>
         <div class="font-semibold">Invest Name</div>
         <input type="text" class="invent_name invest_input" />
         <div class="font-semibold">Invest Amount</div>
@@ -21,7 +21,7 @@
       </div>
       <div class="invents">
         <div class="font-semibold text-xl mb-2">My Investments</div>
-        <div class="main_invest text-sm text-gray-700">
+        <div class="main_invest text-sm text-gray-700 h-52 overflow-y-auto">
           <div class="invent grid grid-cols-3 font-semibold">
             <div class="invent_name truncate">invent name</div>
             <div class="invent_amount">invent amount</div>
@@ -33,9 +33,10 @@
           <span class="total">0000</span>
         </div>
       </div>
+
       <!-- PURCHASES -->
       <div class="addInventPart border-gray-700 border-4 p-4">
-        <div class="font-bold text-2xl mb-4">Add your Purchase</div>
+        <div class="font-semibold text-xl mb-4">Add your Purchase</div>
         <div class="font-semibold">Item Purchased</div>
         <input type="text" class="purchase_name purchase_input" />
         <div class="font-semibold">Item Amount</div>
@@ -46,7 +47,7 @@
       </div>
       <div class="invents">
         <div class="font-semibold text-xl mb-2">My Purchases</div>
-        <div class="main_purchase text-sm text-gray-700">
+        <div class="main_purchase text-sm text-gray-700 max-h-52 overflow-auto">
           <div class="invent grid grid-cols-3 font-semibold">
             <div class="purchase_name truncate">purchase name</div>
             <div class="purchase_amount">purchase amount</div>
